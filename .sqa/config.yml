@@ -15,54 +15,54 @@ sqa_criteria:
     repos:
       github.com/LupoA/lsdensities git:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-rust-dhole.sh
-        container: qc.acc_pasty-aqua-bulldog
+        - /usr/bin/env sh .sqa/script.messy-flax-wolverine.sh
+        container: qc.acc_trippy-ochre-fox
   QC.Doc:
     repos:
       github.com/LupoA/lsdensities find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-xanthic-foxhound.sh
-        container: qc.doc_surly-denim-rattlesnake
+        - /usr/bin/env sh .sqa/script.trippy-pink-lemur.sh
+        container: qc.doc_flabby-brass-newt
       github.com/LupoA/lsdensities git:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-jade-zebra.sh
-        container: qc.doc_shaggy-gamboge-urchin
+        - /usr/bin/env sh .sqa/script.craggy-aquamarine-centipede.sh
+        container: qc.doc_geeky-burgundy-wildebeest
       github.com/LupoA/lsdensities markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-malachite-frigatebird.sh
-        container: qc.doc_thirsty-turquoise-mandrill
+        - /usr/bin/env sh .sqa/script.pretty-apricot-lemur.sh
+        container: qc.doc_gamy-sapphire-fowl
       github.com/LupoA/lsdensities restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-cobalt-raccoon.sh
-        container: qc.doc_leaky-cream-drever
+        - /usr/bin/env sh .sqa/script.zippy-tangerine-lion.sh
+        container: qc.doc_stealthy-harlequin-hornet
   QC.Lic:
     repos:
       github.com/LupoA/lsdensities licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-lavender-meerkat.sh
-        container: qc.lic_craggy-cream-dragonfly
+        - /usr/bin/env sh .sqa/script.crabby-crimson-bandicoot.sh
+        container: qc.lic_scummy-peach-jaguar
   QC.Sec:
     repos:
       github.com/LupoA/lsdensities bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-scarlet-yak.sh
-        container: qc.sec_wheezy-blue-slug
+        - /usr/bin/env sh .sqa/script.wheezy-gamboge-discus.sh
+        container: qc.sec_shaggy-ultramarine-cat
   QC.Sty:
     repos:
       github.com/LupoA/lsdensities flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-harlequin-booby.sh
-        container: qc.sty_lumpy-smalt-oriole
+        - /usr/bin/env sh .sqa/script.flabby-sangria-bird.sh
+        container: qc.sty_gloppy-khaki-fousek
   QC.Uni:
     repos:
       github.com/LupoA/lsdensities pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-cerise-anteater.sh
-        container: qc.uni_snoopy-viridian-kiwi
+        - /usr/bin/env sh .sqa/script.sloppy-tangerine-indri.sh
+        container: qc.uni_snazzy-blue-bear
   QC.Ver:
     repos:
       github.com/LupoA/lsdensities get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-russet-paradise.sh
-        container: qc.ver_dorky-russet-abyssinian
+        - /usr/bin/env sh .sqa/script.cloudy-jade-caracal.sh
+        container: qc.ver_droopy-violet-cat
 timeout: 5400
